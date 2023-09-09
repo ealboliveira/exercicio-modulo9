@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    background-color: rgba(168, 193, 185, 0.603);
+}
+
+header img {
+    height: 80px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #49025eab;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}   
+
+header img {
+    height: 80px;
+    margin-right: 16px;
+}
+
+#tarefa {
+    text-align: center;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
